@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.springmicroservicesinaction</groupId>
-	<artifactId>springmicroservicesinaction</artifactId>
+	<artifactId>licences</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>springmicroservicesinaction</name>
 	<description>Demo project for Spring Boot</description>
