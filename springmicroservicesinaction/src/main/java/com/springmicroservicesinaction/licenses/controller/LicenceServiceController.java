@@ -1,4 +1,4 @@
-package com.springmicroservicesinaction.licenses.controllers;
+package com.springmicroservicesinaction.licenses.controller;
 
 import com.springmicroservicesinaction.licenses.models.License;
 import org.springframework.web.bind.annotation.GetMapping;
