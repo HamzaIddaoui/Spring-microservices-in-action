@@ -7,4 +7,4 @@ spring:
     config:
       server:
         native:
-          searchLocations: 'C:\\Users\\hiddaoui\\Desktop\\Books\\Spring-microservices-in-action\\configserver\\src\\main\\resources\\config\\licensingservice\\licensingservice.yaml'
+          searchLocations: 'file:///C:/Users/hiddaoui/Desktop/Books/Spring-microservices-in-action/configserver/src/main/resources/config/licensingservice/'
