@@ -4,7 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ef8b2fe-ac4d-4c7f-b179-951a6f8346a9" name="Changes" comment="" />
+    <list default="true" id="3ef8b2fe-ac4d-4c7f-b179-951a6f8346a9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/hybrisProjectSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configserver/src/main/resources/config/licensingservice/licensingservice-dev.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configuration/.idea/configuration.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discoveryservice/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmicroservicesinaction/src/main/java/com/springmicroservicesinaction/licenses/repository/LicenseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmicroservicesinaction/src/main/java/com/springmicroservicesinaction/licenses/service/LicenseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmicroservicesinaction/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver/src/main/resources/config/licensingservice/licensingservice.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/src/main/resources/config/licensingservice/licensingservice.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmicroservicesinaction/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springmicroservicesinaction/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmicroservicesinaction/src/main/java/com/springmicroservicesinaction/licenses/controllers/LicenceServiceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springmicroservicesinaction/src/main/java/com/springmicroservicesinaction/licenses/controller/LicenceServiceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmicroservicesinaction/src/main/java/com/springmicroservicesinaction/licenses/models/License.java" beforeDir="false" afterPath="$PROJECT_DIR$/springmicroservicesinaction/src/main/java/com/springmicroservicesinaction/licenses/models/License.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmicroservicesinaction/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springmicroservicesinaction/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,12 +31,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2lkfgYeabkKr9Pxf51fmzHtrMOP" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -26,8 +47,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ConfigserverApplication.executor": "Run",
+    "Application.DiscoveryserviceApplication.executor": "Run",
+    "Application.SpringmicroservicesinactionApplication.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/hiddaoui/Desktop/Books/Spring-microservices-in-action/springmicroservicesinaction",
@@ -36,6 +61,54 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RunManager" selected="Application.DiscoveryserviceApplication">
+    <configuration name="ConfigserverApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.configserver.configserver.ConfigserverApplication" />
+      <module name="configserver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.configserver.configserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiscoveryserviceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.discoveryservice.discoveryservice.DiscoveryserviceApplication" />
+      <module name="discoveryservice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.discoveryservice.discoveryservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringmicroservicesinactionApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.springmicroservicesinaction.springmicroservicesinaction.SpringmicroservicesinactionApplication" />
+      <module name="main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springmicroservicesinaction.springmicroservicesinaction.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DiscoveryserviceApplication" />
+        <item itemvalue="Application.ConfigserverApplication" />
+        <item itemvalue="Application.SpringmicroservicesinactionApplication" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
